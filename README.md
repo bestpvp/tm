@@ -2,7 +2,7 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-12 16:16:45
+ * @LastEditTime: 2023-09-12 16:17:53
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -22,5 +22,5 @@
 3. 本地版：提供本地爬虫调用的数据源服务
 
 ## 关注公众号, 和爱好者一起共建
-<img src=./join.PNG style="width:50%;" />
+<img src=./join.png style="width:50%;" />
 
