@@ -4,6 +4,6 @@ plugins:
 
 title: 时光机数据源发布页
 description: 码上放生公众号免费提供, 请勿付费购买
-show_downloads: true
+show_downloads: false
 
 
