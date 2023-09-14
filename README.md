@@ -2,12 +2,21 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-13 10:53:55
+ * @LastEditTime: 2023-09-14 23:04:17
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 20230914-公测版
+
+1. 使用新的打包工具生成
+2. 自营线路drpy的依赖本地化支持
+3. 主数据源的AES加密
+4. 一些小问题的优化
+
+**下载地址:** [20230914-公测版.zip](release/20230914-公测版.zip "20230914-公测版")
 
 ## 20230910-公测版
 
