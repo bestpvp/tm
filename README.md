@@ -2,12 +2,19 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-14 23:04:17
+ * @LastEditTime: 2023-09-17 09:08:25
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 时光机哥哥20230917-0831
+
+1. 修复今天代码修改引起的一些bug
+2. 支持荐片(感谢 q215613905)
+
+**下载地址:** [时光机哥哥20230917-0831](release/tm_Box_black_20230917-0831.apk "时光机哥哥20230917-0831")
 
 ## 20230914-公测版
 
