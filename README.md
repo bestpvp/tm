@@ -2,12 +2,20 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-17 09:10:59
+ * @LastEditTime: 2023-09-18 07:55:38
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 时光机哥哥20230918-0745
+
+1. 更新 VOD 焦点大小 x1.2
+2. 更新 VOD 控制器 UI
+3. 修复了输入时搜索字幕时崩溃的问题
+
+**下载地址:** [tm_Box_black_20230918-0745.apk](release/tm_Box_black_20230918-0745.apk "时光机哥哥20230918-0745")
 
 ## 时光机哥哥20230917-0831
 
