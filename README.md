@@ -2,12 +2,20 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-18 07:55:38
+ * @LastEditTime: 2023-09-18 16:31:41
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 20230918-公测版
+
+1. 自营线路drpy爬虫升级到drpy2
+2. 部分线路不支持搜索：比如csp_Bili
+3. 一些小问题的优化
+
+**下载地址:** [20230918-公测版.zip](release/20230918-公测版.zip "20230918-公测版")
 
 ## 时光机哥哥20230918-0745
 
