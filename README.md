@@ -2,12 +2,27 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-18 16:31:41
+ * @LastEditTime: 2023-09-19 20:54:01
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 时光机哥哥20230919-2036
+
+1. App启动时清理荐片下载缓存
+
+**下载地址:** [tm_Box_black_20230919-2036.apk](release/tm_Box_black_20230919-2036.apk "时光机哥哥20230919-2036")
+
+## 20230919-公测版
+
+1. 更新直播线路验签
+2. 删除无用的爬虫脚本，提高性能
+3. 一些小问题的优化
+
+**下载地址:** [20230919-公测版.zip](release/20230919-公测版.zip "20230919-公测版")
+
 
 ## 20230918-公测版
 

@@ -2,8 +2,8 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-10 13:14:36
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-10 14:34:20
- * @FilePath: /lintech/docs/static/tvbox/js/码上看_douban.js
+ * @LastEditTime: 2023-09-14 21:16:31
+ * @FilePath: /lintech/docs/static/tvbox/js/码上看_豆瓣.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 var rule = {
