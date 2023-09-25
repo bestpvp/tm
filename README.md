@@ -2,12 +2,18 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-22 10:13:12
+ * @LastEditTime: 2023-09-25 22:44:25
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 时光机哥哥20230925-2204
+
+1. 修复由于xstream升级后导致xml源解析失败的问题，报错：ForbiddenClassException
+
+**下载地址:** [tm_Box_black_20230925-2204.apk](release/tm_Box_black_20230925-2204.apk "时光机哥哥20230925-2204")
 
 ## 时光机哥哥20230922-0959
 
