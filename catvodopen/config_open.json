@@ -5,32 +5,32 @@
                 "key": "wogg",
                 "name": "码上看玩偶",
                 "type": 3,
-                "api": "assets://js/wogg.js",
+                "api": "./js/wogg.js",
                 "ext": "alitoken"
             },
             {
                 "key": "kunyu77",
                 "name": "码上看七七",
                 "type": 3,
-                "api": "assets://js/kunyu77_open.js"
+                "api": "./js/kunyu77_open.js"
             },
             {
                 "key": "ikanbot",
                 "name": "码上看爱看",
                 "type": 3,
-                "api": "assets://js/ikanbot_open.js"
+                "api": "./js/ikanbot_open.js"
             },
             {
                 "key": "kkys",
                 "name": "码上看看看",
                 "type": 3,
-                "api": "assets://js/kkys_open.js"
+                "api": "./js/kkys_open.js"
             },
             {
                 "key": "duboku2",
                 "name": "码上看独播",
                 "type": 3,
-                "api": "assets://js/duboku2_open.js"
+                "api": "./js/duboku2_open.js"
             }
         ]
     },
@@ -40,7 +40,7 @@
                 "key": "alist",
                 "name": "Alist",
                 "type": 40,
-                "api": "assets://js/alist_open.js",
+                "api": "./js/alist_open.js",
                 "ext": [
                     {
                         "name": "小雅",
