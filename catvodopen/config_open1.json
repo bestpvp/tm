@@ -7,6 +7,13 @@
                 "type": 3,
                 "api": "./kkys_open_customer.js",
                 "ext": ""
+			}，
+            {
+                "key": "wogg_customer",
+                "name": "码上玩偶",
+                "type": 3,
+                "api": "./wogg_customer.js",
+                "ext": "dbe2d9cf5411417aac0b54120af7f129"
             }
         ]
     },
