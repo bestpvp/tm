@@ -90,15 +90,15 @@ class User {
             'user_id': this[K(0x316)](),
             'token_type': this[K(0x347)](),
             'access_token': this['getAccessToken'](),
-            'refresh_token': "12323"
+            'refresh_token': this[K(0x232)]()
         };
         return JSON[K(0x279)](d);
     }
 }
 class OAuth {
-    [y(0x2b5)] = '1';
-    [y(0x28b)] = '1';
-    [y(0x291)] = '1123';
+    [y(0x2b5)] = '';
+    [y(0x28b)] = '';
+    [y(0x291)] = '';
     static ['objectFrom'](d) {
         const L = y,
             e = {
@@ -106,7 +106,7 @@ class OAuth {
                 'bOOXF': L(0x20f),
                 'winPW': L(0x309)
             };
-        // console['log'](e[L(0x30f)]), console[L(0x24d)](d);
+        console['log'](e[L(0x30f)]), console[L(0x24d)](d);
         if (_[L(0x25d)](d)) return new OAuth();
         let f = JSON['parse'](d),
             g = new OAuth();
@@ -143,7 +143,7 @@ class OAuth {
         var d = {
             'token_type': this[S(0x347)](),
             'access_token': this[S(0x27d)](),
-            'refresh_token': "999"
+            'refresh_token': this['getRefreshToken']()
         };
         return JSON[S(0x279)](d);
     }
@@ -167,7 +167,7 @@ class Item {
                 },
                 'jFjWT': T(0x26c)
             };
-        this[T(0x307)] = d;
+        console[T(0x24d)](e[T(0x253)](e[T(0x27f)], d)), this[T(0x307)] = d;
     }
     static [y(0x215)](d) {
         const U = y,
@@ -332,9 +332,9 @@ async function initSome() {
         };
     tempIds = [];
     let e = await d[ab(0x2be)](getOAuthCache);
-    await d[ab(0x2b4)](log, d[ab(0x21e)](d[ab(0x2d4)], e)), oauth = OAuth['objectFrom'](e);
+    await d[ab(0x2b4)](log, d[ab(0x21e)](d[ab(0x2d4)], e)), oauth = OAuth['objectFrom'](e), console['log'](d[ab(0x2a0)]), console[ab(0x24d)](oauth);
     let f = await getUserCache();
-    await d[ab(0x1f6)](log, d[ab(0x2ed)](d[ab(0x287)], f)), user = User[ab(0x215)](f), quality = {
+    console[ab(0x24d)](f), await d[ab(0x1f6)](log, d[ab(0x2ed)](d[ab(0x287)], f)), user = User[ab(0x215)](f), quality = {
         '4K': d[ab(0x2fa)],
         '2k': d[ab(0x32f)],
         '超清': ab(0x23a),
@@ -423,13 +423,13 @@ function getHeaderOpen() {
     while (!![]) {
         switch (e[f++]) {
             case '0':
-                // console['log'](oauth);
+                console['log'](oauth);
                 continue;
             case '1':
                 g[d[ag(0x2f2)]] = oauth[ag(0x202)]();
                 continue;
             case '2':
-                // console[ag(0x24d)]('getHeaderOpen---');
+                console[ag(0x24d)]('getHeaderOpen---');
                 continue;
             case '3':
                 var g = {};
@@ -457,7 +457,7 @@ async function alist(d, e) {
     let g = f[ah(0x227)](ah(0x330), d),
         h = await f[ah(0x2fd)](postJson, g, e, f[ah(0x2ec)](getHeader)),
         i = h[ah(0x2c3)];
-    // console[ah(0x24d)](f['KIjEh']), console['log'](i);
+    console[ah(0x24d)](f['KIjEh']), console['log'](i);
     if (await isManyRequest(i)) return ![];
     return oauth = await OAuth[ah(0x215)](i)[ah(0x257)](), !![];
 }
@@ -612,7 +612,7 @@ async function refreshShareToken() {
             h = JSON[ao(0x2cd)](g);
         shareToken = h[d['PHkFb']];
     } catch (i) {
-        // console[ao(0x24d)](i['message']);
+        console[ao(0x24d)](i['message']);
     }
 }
 async function refreshAccessToken() {
@@ -658,7 +658,7 @@ async function refreshAccessToken() {
         if (_[ap(0x25d)](user[ap(0x27d)]())) throw new Error(h);
         return !![];
     } catch (i) {
-        return await d['Gadbk'](log, d[ap(0x2af)] + i[ap(0x2a5)]), await user[ap(0x333)]()['save'](), !![];
+        return await d['Gadbk'](log, d[ap(0x2af)] + i[ap(0x2a5)]), console['log'](i[ap(0x2a5)]), await user[ap(0x333)]()['save'](), !![];
     }
 }
 async function oauthRequest() {
@@ -689,9 +689,9 @@ async function oauthRequest() {
         f[d[aq(0x32c)]] = 0x1, f[aq(0x2d9)] = 'user:base,file:all:read,file:all:write';
         let g = d['tNoLP'](d[aq(0x2f1)](d[aq(0x33d)], CLIENT_ID), d[aq(0x276)]),
             h = await d[aq(0x24e)](auth, g, f, !![]);
-        return await d[aq(0x306)](log, d['xSimp'](d['ZGvIL'], h)), await d[aq(0x29a)](oauthRedirect, Code[aq(0x215)](h)[aq(0x20d)]());
+        return await d[aq(0x306)](log, d['xSimp'](d['ZGvIL'], h)), console[aq(0x24d)](d[aq(0x2e7)]), console[aq(0x24d)](h), await d[aq(0x29a)](oauthRedirect, Code[aq(0x215)](h)[aq(0x20d)]());
     } catch (i) {
-        return ![];
+        return console[aq(0x29b)](i), ![];
     }
 }
 async function oauthRedirect(d) {
@@ -708,7 +708,7 @@ async function oauthRedirect(d) {
         let g = {};
         return g['code'] = d, g[f[ar(0x326)]] = f[ar(0x1fd)], await f[ar(0x2cc)](alist, f[ar(0x2aa)], g);
     } catch (h) {
-        return await oauth[ar(0x333)]()['save'](), ![];
+        return console[ar(0x24d)](h[ar(0x2a5)]), await oauth[ar(0x333)]()['save'](), ![];
     }
 }
 
@@ -734,30 +734,30 @@ async function refreshOpenToken() {
         let f = {};
         return f[d[as(0x23d)]] = d['nMbKb'], f[d[as(0x216)]] = oauth[as(0x232)](), await alist(d['paYzo'], f);
     } catch (g) {
-        return oauth[as(0x333)]()[as(0x257)](), ![];
+        return console[as(0x24d)](g[as(0x2a5)]), oauth[as(0x333)]()[as(0x257)](), ![];
     }
 }
 async function getVod(d, e) {
-    const prefix = "关注【码上放生】公众号: "
     const at = y,
-        f = {
-            'iLyDO': 'share_id',
-            'uxjpN': function (u, v, w) {
-                return u(v, w);
-            },
-            'eZVAE': function (u, v) {
-                return u + v;
-            },
-            'aCTlR': function (u, v, w) {
-                return u(v, w);
-            },
-            'rlZMZ': function (u, v) {
-                return u < v;
-            },
-            'FdWOe': 'share_name',
-            'oDviT': at(0x2d2),
-            'VsAzB': at(0x2f9)
-        };
+    const prefix = "关注【码上放生】公众号: "
+    f = {
+        'iLyDO': 'share_id',
+        'uxjpN': function (u, v, w) {
+            return u(v, w);
+        },
+        'eZVAE': function (u, v) {
+            return u + v;
+        },
+        'aCTlR': function (u, v, w) {
+            return u(v, w);
+        },
+        'rlZMZ': function (u, v) {
+            return u < v;
+        },
+        'FdWOe': 'share_name',
+        'oDviT': at(0x2d2),
+        'VsAzB': at(0x2f9)
+    };
     let g = {};
     g[f[at(0x2ff)]] = shareId;
     let h = await f['uxjpN'](post, 'adrive/v3/share_link/get_share_by_anonymous', g),
@@ -956,7 +956,7 @@ async function getDownloadUrl(d) {
     let f = {};
     f[aA(0x22e)] = tempIds[0x0], f[e['NiXbt']] = user[aA(0x33b)]();
     let g = await e[aA(0x2a4)](oauthFunc, e[aA(0x203)], f, !![]);
-    return await e['QfNxY'](log, e[aA(0x297)] + g), await deleteAll(), JSON['parse'](g)[aA(0x247)];
+    return console[aA(0x24d)](e['fadkV']), console[aA(0x24d)](g), await e['QfNxY'](log, e[aA(0x297)] + g), await deleteAll(), JSON['parse'](g)[aA(0x247)];
 }
 async function getVideoPreviewPlayInfo(d) {
     const aB = y,
@@ -982,7 +982,7 @@ async function getVideoPreviewPlayInfo(d) {
     let f = {};
     f[e[aB(0x244)]] = tempIds[0x0], f[e[aB(0x299)]] = user[aB(0x33b)](), f[e['mxBQB']] = aB(0x2db), f[e['FqIsl']] = e[aB(0x283)];
     let g = await e['XFWdu'](oauthFunc, e['BelTx'], f, !![]);
-    return await e['xVFEZ'](deleteAll), JSON[aB(0x2cd)](g)[aB(0x2cf)];
+    return console['log'](e[aB(0x2c4)]), console[aB(0x24d)](g), await e['xVFEZ'](deleteAll), JSON[aB(0x2cd)](g)[aB(0x2cf)];
 }
 async function playerContent(d) {
     const aC = y,
@@ -1114,9 +1114,9 @@ async function copy(d) {
         };
     f = e[aG(0x2e0)](jinja2, f, {
         'data': g
-    }), await e[aG(0x245)](log, e[aG(0x2ca)](e['lSakw'], f));
+    }), await e[aG(0x245)](log, e[aG(0x2ca)](e['lSakw'], f)), console[aG(0x24d)](e[aG(0x1f3)]), console[aG(0x24d)](f);
     let h = await e[aG(0x243)](auth, e[aG(0x31c)], JSON['parse'](f), !![]);
-    await e['QRqNe'](log, e[aG(0x321)](e[aG(0x265)], h));
+    await e['QRqNe'](log, e[aG(0x321)](e[aG(0x265)], h)), console['log'](e[aG(0x262)]), console[aG(0x24d)](h), console[aG(0x24d)](typeof h);
     if (e[aG(0x22b)](h[aG(0x336)](aG(0x1f0)), -0x1)) return e[aG(0x245)](copy, d);
     return JSON['parse'](h)[e[aG(0x2f7)]][0x0][e[aG(0x239)]][e[aG(0x302)]];
 }
@@ -1129,7 +1129,7 @@ async function deleteAll() {
             }
         };
     let e = tempIds;
-    // console['log'](d[aH(0x317)]), console[aH(0x24d)](e);
+    console['log'](d[aH(0x317)]), console[aH(0x24d)](e);
     for (var f of e) {
         let g = await d[aH(0x1f8)](deleteFile, f);
         if (g) tempIds = e['filter'](h => h !== f);
@@ -1159,7 +1159,7 @@ async function deleteFile(d) {
         'data': g
     });
     let h = await e[aI(0x33f)](auth, 'adrive/v2/batch', JSON[aI(0x2cd)](f), !![]);
-    return e[aI(0x2ef)](h[aI(0x32e)], 0xd3);
+    return console['log'](e[aI(0x295)]), console['log'](h), e[aI(0x2ef)](h[aI(0x32e)], 0xd3);
 }
 async function setToken(d) {
     const aJ = y,
