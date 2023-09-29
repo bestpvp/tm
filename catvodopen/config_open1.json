@@ -7,7 +7,7 @@
                 "type": 3,
                 "api": "./kkys_open_customer.js",
                 "ext": ""
-			}，
+			},
             {
                 "key": "wogg_customer",
                 "name": "码上玩偶",

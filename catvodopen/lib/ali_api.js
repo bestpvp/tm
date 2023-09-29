@@ -767,7 +767,7 @@ async function getVod(d, e) {
         m = f[at(0x2c6)](getParentFileId, e, j),
         n = new Item(m);
     await listFiles(n, k, l);
-    let o = [prefix + '原画', '超清', '高清'],
+    let o = ['原画', '超清', '高清'],
         p = [],
         q = [];
     for (var r of k) p[at(0x2fb)](f[at(0x2d7)](f['eZVAE'](r[at(0x2e9)](), '$') + r[at(0x2c7)](), f[at(0x29e)](findSubs, r['getName'](), l)));
