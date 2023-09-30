@@ -2,7 +2,7 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-09-25 22:44:25
+ * @LastEditTime: 2023-09-30 18:02:19
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -93,6 +93,9 @@
 2. **微信打赏赞助**  
 通过微信打赏码，支持插兜的开发工作，补贴一下腾讯云的服务器成本，会定期公布赞助人员名单  
 ![支持插兜](./img/打赏码.jpg "支持插兜")
+
+3. **捐助目录**
+[2309捐助名单](./donate/2309.md)
 
 # 关注公众号, 和爱好者一起共建
 
