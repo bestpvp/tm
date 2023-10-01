@@ -265,7 +265,7 @@ let quality = {},
     oauth = new OAuth(),
     user = new User(),
     driveInfo = {},
-    tmpFolderName = 'tmp_for_resource',
+    tmpFolderName = '关注【码上放生】公众号',
     curTmpFolderFileId = '',
     log = _0x5f2ae7['log'];
 async function getUserCache() {
@@ -423,6 +423,7 @@ async function refreshAccessToken() {
 function _0x2ae1() {
     const _0x216394 = ['share_id', '-----createTmpFolder-----', 'folder', '14609vDTFfP', 'join', 'type', 'default_drive_id', 'file_extension', 'getRefreshToken', 'getExt', 'split', '815ZkhJaU', 'getVideoPreviewPlayInfo===', 'save', 'parentFunc', 'getNextMarker', 'isArray', 'unshift', 'initSome----oauth-', 'user:base,file:all:read,file:all:write', 'https://open.aliyundrive.com/adrive/v1.0/', 'authorization', 'getSize', 'adrive/v2/batch', 'parent', 'next_marker', 'getType', '阿里云盘', 'aliyundrive_oauth', 'log', 'https://open.aliyundrive.com/oauth/users/authorize?client_id=', 'getDisplayName', 'https://api.aliyundrive.com/', 'prototype', 'getUserId', 'aliyundrive_user', 'parse', 'token_type', 'UHD', 'accessToken', 'token', 'video', 'ASC', 'adrive/v2/file/list_by_share', 'items', 'push', 'backup_drive_id', 'application/x-subrip', 'debug', '----shareFunc----', 'length', 'constructor', 'url', 'clean', '2461506OgBhNE', 'copy---user-', 'Content-Type', 'refresh_token', 'hasOwnProperty', 'shareId', 'getHeaderOpen---', 'v2/batch', 'refreshAccessToken---result--', 'refreshAccessToken---body--', 'drive_id', 'curDriveInfo---', 'trace', '99882ClAEVN', 'trashFile-----', 'application/x-mpegURL', 'https://api-cf.nn.ci/alist/ali_open/', 'resource_drive_id', '121720JEKXvw', '21324xXWquH', 'nextMarker', 'getDownloadUrl--fileId-', 'set', 'refreshAccessToken--user.driveId-', 'exception', 'Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2013_2_3\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20Version/13.0.3\x20Mobile/15E148\x20Safari/604.1', 'avatar', 'tokenType', 'oauthRequest---', 'order_by', 'https://www.aliyundrive.com/', 'auth--res--', '__proto__', 'getDownloadUrl---', 'ali', 'copy---result', 'application/octet-stream', 'live_transcoding_task_list', 'indexOf', 'application/json', 'ForbiddenNoPermission.File', 'getItems', 'driveId', 'toLowerCase', 'video_preview_play_info', 'openFile/getVideoPreviewPlayInfo', 'return\x20(function()\x20', 'Referer', 'setRefreshToken', 'get', 'toString', 'alist---', 'size', '@@@', 'getParent', 'setFormat', 'error', 'user/getDriveInfo', 'https://auth.aliyundrive.com/v2/account/token', 'language', 'isSub', 'openFile/getDownloadUrl', 'marker', '2595072ZXULGt', 'getDriveId', 'root', 'initSome----user-', 'setName', '-----tmpFolderFileId-----', 'getCategory', '612ublqqZ', 'isEmpty', '{\x22requests\x22:[{\x22body\x22:{\x22file_id\x22:\x22{{data.fileId}}\x22,\x22drive_id\x22:\x22{{data.driveId}}\x22},\x22headers\x22:{\x22Content-Type\x22:\x22application/json\x22},\x22id\x22:\x220\x22,\x22method\x22:\x22POST\x22,\x22url\x22:\x22/recyclebin/trash\x22}],\x22resource\x22:\x22file\x22}', 'share_pwd', 'limit', 'vtt', 'create', 'User-Agent', 'objectFrom', 'getAccessToken', 'code', 'setExt', 'info', 'apply', 'isAuthed', 'format', 'live_transcoding_subtitle_task_list', 'getRedirectUri', '14400', '76917ccccd4441c39457a04f6084fb2f', 'body', 'parent_file_id', '446252NbMsqD', 'console', 'adrive/v3/share_link/get_share_by_anonymous', 'recyclebinClear-----', 'file_id', 'fileExtension', 'startsWith', 'message', 'auth--res--429', 'post', 'name', 'getFileId', 'grant_type', 'FHD', 'category', 'removeExt', 'getName', 'refreshToken', 'client=Android,app=adrive,version=v4.3.1', '------tmpFolderExists-------', 'oauthFunc--res-2-', '1932xiudfA', 'template_id', 'fileId', 'bind', 'redirectUri', 'getTokenType', 'responses', 'initSome----', 'copy---', 'stringify', 'undefined', 'access_token', '{\x22requests\x22:[{\x22body\x22:{\x22file_id\x22:\x22{{data.fileId}}\x22,\x22share_id\x22:\x22{{data.shareId}}\x22,\x22auto_rename\x22:true,\x22to_parent_file_id\x22:\x22{{data.tmpFolderFileId}}\x22,\x22to_drive_id\x22:\x22{{data.driveId}}\x22},\x22headers\x22:{\x22Content-Type\x22:\x22application/json\x22},\x22id\x22:\x220\x22,\x22method\x22:\x22POST\x22,\x22url\x22:\x22/file/copy\x22}],\x22resource\x22:\x22file\x22}', 'setUrl', 'userId', 'live_transcoding', 'getAuthorization', 'https', 'QHD', 'x-share-token', 'openFile/create', 'authorization_code', 'authorize', 'content'];
     _0x2ae1 = function () {
+        // return ""
         return _0x216394;
     };
     return _0x2ae1();
@@ -459,8 +460,8 @@ async function refreshOpenToken() {
     }
 }
 async function getVod(_0x44edf2, _0x3a1577) {
-    const _0x5b9f62 = _0x475d0a;
     const prefix = "关注【码上放生】公众号: ";
+    const _0x5b9f62 = _0x475d0a;
     let _0x159c79 = {};
     _0x159c79[_0x5b9f62(0x10a)] = shareId;
     let _0x6b815f = await post(_0x5b9f62(0xdf), _0x159c79),
@@ -470,7 +471,7 @@ async function getVod(_0x44edf2, _0x3a1577) {
         _0x3164ad = getParentFileId(_0x3a1577, _0x187f1c),
         _0x143f2b = new Item(_0x3164ad);
     await listFiles(_0x143f2b, _0x2a8932, _0x185d3e);
-    let _0x51f891 = ['原画', '超清', '高清'],
+    let _0x51f891 = ['关注【码上放生】公众号: 原画', '超清', '高清'],
         _0x3048b2 = [],
         _0x4529ae = [];
     for (var _0x2e60ee of _0x2a8932) _0x3048b2[_0x5b9f62(0x137)](_0x2e60ee[_0x5b9f62(0x129)]() + '$' + _0x2e60ee[_0x5b9f62(0xe8)]() + findSubs(_0x2e60ee[_0x5b9f62(0xed)](), _0x185d3e));
