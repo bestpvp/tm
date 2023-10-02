@@ -32,9 +32,15 @@ async function request(reqUrl, postData, agentSp, get) {
         data: postData || {},
         postType: get ? '' : 'form',
     });
-
+    console.log("=== request URL === " + reqUrl)
+    console.log("=== request DATA === " + JSON.stringify({
+        method: get ? 'get' : 'post',
+        headers: headers,
+        data: postData || {},
+        postType: get ? '' : 'form',
+    }))
     let content = res.content;
-    // console.log(content);
+    console.log("=== request RESULT === " + content);
     return content;
 }
 
@@ -46,7 +52,7 @@ async function init(cfg) {
     if (deviceInfo.length > 0) {
         try {
             device = JSON.parse(deviceInfo);
-        } catch (error) {}
+        } catch (error) { }
     }
     if (_.isEmpty(device)) {
         device = randDevice();
@@ -192,7 +198,7 @@ async function detail(id) {
         vod_remarks: data.vod_remarks || '',
         vod_actor: data.vod_actor,
         vod_director: data.vod_director,
-        vod_content: data.vod_content.trim(),
+        vod_content: "关注【码上放生】公众号 " + data.vod_content.trim(),
     };
     let playlist = {};
     for (const item of data.vod_play) {
@@ -201,6 +207,7 @@ async function detail(id) {
         if (from === 'xg') continue;
         let urls = [];
         for (const u of item.url) {
+            console.log('test=========' + vod.vod_name)
             urls.push(formatPlayUrl(vod.vod_name, u.title) + '$' + u.play_url);
         }
         if (!playlist.hasOwnProperty(from) && urls.length > 0) {
@@ -226,6 +233,8 @@ async function play(flag, id, flags) {
     try {
         if (id.indexOf('youku') >= 0 || id.indexOf('iqiyi') >= 0 || id.indexOf('v.qq.com') >= 0 || id.indexOf('pptv') >= 0 || id.indexOf('le.com') >= 0 || id.indexOf('1905.com') >= 0 || id.indexOf('mgtv') >= 0) {
             if (parse.length > 0) {
+                console.log("parse+++++")
+                console.log(parse)
                 for (let index = 0; index < parse.length; index++) {
                     try {
                         const p = parse[index];
@@ -237,7 +246,7 @@ async function play(flag, id, flags) {
                             result.parse = 0;
                             return JSON.stringify(result);
                         }
-                    } catch (error) {}
+                    } catch (error) { }
                 }
             }
         }

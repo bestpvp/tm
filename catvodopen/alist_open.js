@@ -1,4 +1,4 @@
-import { _ } from 'assets://js/lib/cat.js';
+import { _ } from './lib/cat.js';
 import { findBestLCS } from './lib/similarity.js';
 
 const http = async function (url, options = {}) {

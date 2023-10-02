@@ -1,15 +1,16 @@
-import {load, _, Uri} from './lib/cat.js';
-import {log} from './lib/utils.js';
-import {initAli, detailContent, playContent}  from './lib/ali.js';
+import { load, _, Uri } from './lib/cat.js';
+import { log } from './lib/utils.js';
+import { initAli, detailContent, playContent } from './lib/ali.js';
 
 let siteKey = 'wogg';
 let siteType = 0;
-let siteUrl = 'https://wogg.xyz';
+let siteUrl = 'https://wogg.link';
 let UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1";
 let patternAli = /(https:\/\/www\.aliyundrive\.com\/s\/[^"]+)/
 
 async function init(cfg) {
     try {
+        console.log(cfg.skey, cfg.stype, cfg.ext)
         siteKey = _.isEmpty(cfg.skey) ? '' : cfg.skey;
         siteType = _.isEmpty(cfg.stype) ? '' : cfg.stype;
         await initAli(cfg);
@@ -27,7 +28,9 @@ async function request(reqUrl, agentSp) {
         headers: header,
         timeout: 10000
     });
+    console.log("=== request URL === " + reqUrl)
     let content = res.content;
+    console.log("=== request RESULT === " + content);
     return content;
 }
 
@@ -44,7 +47,7 @@ async function getString(url) {
     return res.content;
 }
 
-let classes = [{'type_id': 1, 'type_name' : '电影'},{'type_id': 20, 'type_name' : '电视剧'},{'type_id': 28, 'type_name' : '综艺'},{'type_id': 24, 'type_name' : '动漫'},{'type_id': 32, 'type_name' : '音乐'}];
+let classes = [{ 'type_id': 1, 'type_name': '电影' }, { 'type_id': 20, 'type_name': '电视剧' }, { 'type_id': 28, 'type_name': '综艺' }, { 'type_id': 24, 'type_name': '动漫' }, { 'type_id': 32, 'type_name': '音乐' }];
 let filterObj = {};
 async function home(filter) {
     return JSON.stringify({
@@ -60,12 +63,13 @@ async function homeVod() {
 
 
 async function category(tid, pg, filter, extend) {
-    let reqUrl = siteUrl + '/index.php/vodshow/'+tid+'--------'+pg+'---.html';
+    let reqUrl = siteUrl + '/index.php/vodshow/' + tid + '--------' + pg + '---.html';
     let con = await request(reqUrl, UA);
     const $ = load(con);
+    // console.log($)
     let items = $('.module:eq(0) > .module-list > .module-items > .module-item');
     let videos = [];
-    for(var item of items) {
+    for (var item of items) {
         let oneA = $(item).find('.module-item-cover .module-item-pic a').first();
         let href = oneA.attr('href');
         let name = oneA.attr('title');
@@ -104,7 +108,7 @@ async function detail(id) {
         if (!_.isEmpty(matches)) return await detailContent(matches[1]);
         return '';
     } catch (e) {
-        await log( 'detail:' + e.message + ' line:' + e.lineNumber);
+        await log('detail:' + e.message + ' line:' + e.lineNumber);
     }
 }
 
@@ -112,8 +116,8 @@ async function detail(id) {
 async function play(flag, id, flags) {
     try {
         return await playContent(flag, id, flags);
-    }  catch (e) {
-        await log( 'play:' + e.message + ' line:' + e.lineNumber);
+    } catch (e) {
+        await log('play:' + e.message + ' line:' + e.lineNumber);
     }
 }
 
@@ -125,7 +129,7 @@ async function search(wd, quick) {
     let $ = load(html);
     let items = $('.module-search-item');
     let videos = [];
-    for(var item of items) {
+    for (var item of items) {
         let vodId = $(item).find(".video-serial")[0].attribs.href;
         let name = $(item).find(".video-serial")[0].attribs.title;
         let pic = $(item).find(".module-item-pic > img")[0].attribs['data-src'];
