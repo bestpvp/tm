@@ -1,0 +1,2 @@
+下载异常: https://agit.ai/fantaiying/fty/raw/branch/master/json/bilibili.json, ./sites/码上👓饭/bilibili.json
+下载异常: https://agit.ai/fantaiying/fty/raw/branch/master/json/biliych.json, ./sites/码上👓饭/biliych.json
