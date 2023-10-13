@@ -2,12 +2,34 @@
  * @Author: bestpvp bestpvp@sina.com
  * @Date: 2023-09-12 15:56:58
  * @LastEditors: bestpvp bestpvp@sina.com
- * @LastEditTime: 2023-10-11 19:29:31
+ * @LastEditTime: 2023-10-13 23:06:07
  * @FilePath: /tm/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # 更新日志
+
+## 时光TV黄哥哥 20231013-2253
+
+1. 更新quickJS以及配套工程
+2. 嗅探使用okhttp后，忘记添加缓存机制，加入缓存机制以提升嗅深速度
+3. 增加部分站点一集分两段mp4的支持，代码里写死该站点的嗅探逻辑
+4. 时光机哥哥改名时光TV黄哥哥，以及图标，以及详情页的品牌外露
+
+**下载地址:** [tm_Box_black_20231013-2253.apk](release/tm_Box_black_20231013-2253.apk "时光TV黄哥哥 20231013-2253")
+
+## 时光TV白妹妹 20231013-2133
+
+1. 时光机妹妹改名时光TV白妹妹，以及图标，以及详情页的品牌外露
+
+**下载地址:** [tm_TVBoxOS_white_20231013-2133.apk](release/tm_TVBoxOS_white_20231013-2133.apk "时光TV白妹妹 20231013-2133")
+
+## 本地包 20231013-公测版
+
+1. 直播版本更新到最新的1013
+2. 制作工具的重构以及问题修复
+
+**下载地址:** [20231013-公测版.zip](release/20231013-公测版.zip "20231013-公测版")
 
 ## 本地包 20231009-公测版
 
@@ -15,7 +37,7 @@
 2. 制作工具的重构以及问题修复
 
 **下载地址:** [20231009-公测版.zip](release/20231009-公测版.zip "20231009-公测版")
-
+<!-- 
 ## 本地包 20230927-公测版
 
 1. 支持相对路径的源融合，比如荷城茶秀
@@ -33,7 +55,7 @@
 
 1. 回滚到 FF4, 更新 Exo
 
-**下载地址:** [tm_Box_black_20230922-0959.apk](release/tm_Box_black_20230922-0959.apk "时光机哥哥20230922-0959")
+**下载地址:** [tm_Box_black_20230922-0959.apk](release/tm_Box_black_20230922-0959.apk "时光机哥哥20230922-0959") -->
 
 > [以前的下载地址点我](https://github.com/bestpvp/tm/tree/main/release)
 
