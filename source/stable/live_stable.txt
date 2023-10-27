@@ -1,5 +1,5 @@
 时光机直播,#genre#
-20231020,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
+20231027,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
 
 🇨🇳码上央视,#genre#
 CCTV-1综合,https://cntv.sbs/tv?auth=2310201855&id=cctv1
@@ -124,6 +124,12 @@ CHC家庭影院,http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/defaul
 福建经济,https://cntv.sbs/tv?auth=2310201855&id=fjjj
 福建公共,https://cntv.sbs/tv?auth=2310201855&id=fjgg
 福建教育,https://cntv.sbs/tv?auth=2310201855&id=fjjy
+北京新闻,https://cntv.sbs/tv/gh.php?id=bjxw
+北京文艺,https://cntv.sbs/tv/gh.php?id=bjwy
+北京影视,https://cntv.sbs/tv/gh.php?id=bjys
+北京体育休闲,https://cntv.sbs/tv/gh.php?id=bjtyxx
+北京财经,https://cntv.sbs/tv/gh.php?id=bjcj2
+北京生活,https://cntv.sbs/tv/gh.php?id=bjsh2
 浙江公共新闻,http://hw-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 浙江国际,http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
@@ -139,6 +145,10 @@ CHC家庭影院,http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/defaul
 内蒙古农牧频道,https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=b5e44fcd9473993661f17746112ad1b7&txTime=771E8800
 内蒙古蒙语卫视,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=e2b255285dd119a92c8aa5cdf00f8b84&txTime=771EF880
 内蒙古蒙语文化,https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=2250268a1d326dbbc4cbf0ba32649ca5&txTime=771E8800
+云南影视,http://mqiptv.com:8014/ch/custom20/mqlive.m3u8
+云南娱乐,http://mqiptv.com:8014/ch/custom22/mqlive.m3u8
+云南都市,http://mqiptv.com:8014/ch/custom25/mqlive.m3u8
+云南康旅,http://mqiptv.com:8014/ch/custom23/mqlive.m3u8
 
 🇨🇳码上百视,#genre#
 看天下精选,https://cntv.sbs/tv?auth=2310201855&id=ktxjx
@@ -163,6 +173,8 @@ CHC家庭影院,http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/defaul
 百视通体育7,https://cntv.sbs/tv?auth=2310201855&id=sport7
 
 🇨🇳码上港澳,#genre#
+凤凰中文,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel52003/index.m3u8
+凤凰资讯,http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel52002/index.m3u8
 翡翠台,https://pi.0472.org/tv/fct.php?auth=2310201855
 明珠台,https://pi.0472.org/tv/mzt.php?auth=2310201855
 澳视澳门,https://pi.0472.org/tv/asam.php?auth=2310201855
@@ -181,7 +193,8 @@ CGTN西语,https://livees.cgtn.com/1000e/prog_index.m3u8
 CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8
 NHKWORLD,https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-半岛新闻,http://live-hls-web-aja.getaj.net/AJA/02.m3u8
+半岛英语,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+半岛阿语,http://live-hls-web-aja.getaj.net/AJA/02.m3u8
 THAIPBS3,http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
 LOVENATURE4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 FASHIONTV,http://lb.streaming.sk/fashiontv/stream/chunklist_w1906011378.m3u8
@@ -199,7 +212,6 @@ FASHIONTV4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_
 韩·EBS-2,http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
 韩·EBS-2,http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
 韩·EBS少儿,http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
-韩·KBC,http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
 韩·SBS,http://1.245.74.5:1935/live/tv/.m3u8
 韩·阿里郎,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 韩·阿里郎WORLD,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
