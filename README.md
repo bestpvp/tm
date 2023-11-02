@@ -49,93 +49,37 @@
 
 **下载地址:** [点我下载](release/20231102-公测版.zip)
 
-<!-- ## 卧龙 20231023-2021
-
-1. 增加启动时直接进直播的开关，默认关闭
-2. 设置中安全DNS默认选中腾讯
-3. 由于涉及关键字审核，将原来的时光TV黄哥哥改名为卧龙
-
-**下载地址:** [tm_Box_black_20231023-2021.apk](release/tm_Box_black_20231023-2021.apk)
-
-## 本地包 20231019-公测版
-
-1. 本次融合 2 个数据源：
-    - http://饭太硬.top/tv
-    - https://pastebin.com/raw/5NHaxyGR
-2. 增加自营的玩偶T4线路
-
-**下载地址:** [20231019-公测版.zip](release/20231019-公测版.zip)
-
-## 时光TV黄哥哥 20231018-0810
-
-1. 解决gitcode闪退问题
-2. 解决部分站点因加速代理异常导致的可能闪退的bug
-3. 优化js加载规则
-4. 默认数据源回滚，仍然使用稳定版
-
-**下载地址:** [tm_Box_black_20231018-0810.apk](release/tm_Box_black_20231018-0810.apk)
-
-## 时光TV白妹妹 20231017-1633
-
-1. 修复错误
-2. 增加部分站点一集分两段mp4的支持，代码里写死该站点的嗅探逻辑
-3. 嗅探使用okhttp后，忘记添加缓存机制，加入缓存机制以提升嗅深速度
-4. quickjs lib include arm64-v8a now, add it to build type.
-5. 更新quickjs版本
-
-**下载地址:** [tm_TVBoxOS_white_20231017-1633.apk](release/tm_TVBoxOS_white_20231017-1633.apk) -->
-
-<!-- 
-
-## 时光TV黄哥哥 20231013-2253
-
-1. 更新quickJS以及配套工程
-2. 嗅探使用okhttp后，忘记添加缓存机制，加入缓存机制以提升嗅深速度
-3. 增加部分站点一集分两段mp4的支持，代码里写死该站点的嗅探逻辑
-4. 时光机哥哥改名时光TV黄哥哥，以及图标，以及详情页的品牌外露
-
-**下载地址:** [tm_Box_black_20231013-2253.apk](release/tm_Box_black_20231013-2253.apk "时光TV黄哥哥 20231013-2253")
-
-## 时光TV白妹妹 20231013-2133
-
-1. 时光机妹妹改名时光TV白妹妹，以及图标，以及详情页的品牌外露
-
-**下载地址:** [tm_TVBoxOS_white_20231013-2133.apk](release/tm_TVBoxOS_white_20231013-2133.apk "时光TV白妹妹 20231013-2133")
-
-## 本地包 20231013-公测版
-
-1. 直播版本更新到最新的1013
-2. 制作工具的重构以及问题修复
-
-**下载地址:** [20231013-公测版.zip](release/20231013-公测版.zip "20231013-公测版")
-
-## 本地包 20231009-公测版
-
-1. 增加更多内置线路，使用自研的merge.js，体积更小
-2. 制作工具的重构以及问题修复
-
-**下载地址:** [20231009-公测版.zip](release/20231009-公测版.zip "20231009-公测版")
-
-## 本地包 20230927-公测版
-
-1. 支持相对路径的源融合，比如荷城茶秀
-2. 制作工具的重构以及问题修复
-
-**下载地址:** [20230927-公测版.zip](release/20230927-公测版.zip "20230927-公测版")
-
-## 时光机哥哥20230925-2204
-
-1. 修复由于xstream升级后导致xml源解析失败的问题，报错：ForbiddenClassException
-
-**下载地址:** [tm_Box_black_20230925-2204.apk](release/tm_Box_black_20230925-2204.apk "时光机哥哥20230925-2204")
-
-## 时光机哥哥20230922-0959
-
-1. 回滚到 FF4, 更新 Exo
-
-**下载地址:** [tm_Box_black_20230922-0959.apk](release/tm_Box_black_20230922-0959.apk "时光机哥哥20230922-0959") -->
-
 > [历史下载地址](https://github.com/bestpvp/tm/tree/main/release)
+
+# 时光机数据源地址
+
+## 稳定版
+
+> 会向精简实用方向发展，保证每条线路都经过充分测试，选择稳定高清的线路，不追求数量，宁缺毋滥，同时还能节省流量
+
+``https://www.bestpvp.site/关注码上放生/时光机``
+
+> 基于流量策略会不定期进行限流，更多信息关注公众号
+
+## 领先版
+
+> 会加入一些粉丝推荐或测试的线路进来，线路可能会非常多，好的线路会收录到稳定版种，同时保证更新频率
+
+1. 主站（需科学上网）
+    ``https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github.json``
+
+2. 代理加速服务（失效请切换）
+    - ``https://ghproxy.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github.json``
+
+    - ``https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github_1.json``
+
+    - ``https://hub.gitmirror.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github_2.json``
+
+    - ``https://ghps.cc/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github_3.json``
+
+    - ``https://gh.ddlc.top/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github_4.json``
+
+    ***
 
 # 关注公众号, 和爱好者一起共建
 
