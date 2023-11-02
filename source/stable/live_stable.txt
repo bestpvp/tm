@@ -1,5 +1,5 @@
 时光机直播,#genre#
-20231029,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
+20231102,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
 
 🇨🇳码上央视,#genre#
 CCTV-1综合,https://cntv.sbs/tv?auth=2310201855&id=cctv1
@@ -194,38 +194,6 @@ FASHIONTV4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_
 金砖电视,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 亚洲新闻720P,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 亚洲新闻1080P,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-
-🇨🇳码上限时测试,#genre#
-龙华电影台,https://cntv.sbs/sbt?id=litv-longturn03
-龙华日韩台,https://cntv.sbs/sbt?id=litv-longturn11
-靖天电影台,https://cntv.sbs/sbt?id=4gtv-4gtv061
-影迷数位电影台,https://cntv.sbs/sbt?id=4gtv-4gtv011
-爱尔达娱乐台,https://cntv.sbs/sbt?id=4gtv-4gtv070
-靖天日本台,https://cntv.sbs/sbt?id=4gtv-4gtv047
-I-FUN动漫台,https://cntv.sbs/sbt?id=litv-ftv15
-公视戏剧台,https://cntv.sbs/sbt?id=4gtv-4gtv042
-民视第一台,https://cntv.sbs/sbt?id=4gtv-4gtv003
-民视,https://cntv.sbs/sbt?id=4gtv-4gtv002
-中视,https://cntv.sbs/sbt?id=4gtv-4gtv040
-民视台湾台,https://cntv.sbs/sbt?id=4gtv-4gtv001
-民视综艺台,https://cntv.sbs/sbt?id=4gtv-4gtv004
-ELTV生活英语台,https://cntv.sbs/sbt?id=litv-longturn20
-华视新闻,https://cntv.sbs/sbt?id=4gtv-4gtv052
-民视新闻台,https://cntv.sbs/sbt?id=litv-ftv13
-中视新闻台,https://cntv.sbs/sbt?id=4gtv-4gtv074
-中天新闻台,https://cntv.sbs/sbt?id=4gtv-4gtv009
-寰宇新闻台,https://cntv.sbs/sbt?id=litv-longturn14
-民视旅游台,https://cntv.sbs/sbt?id=litv-ftv07
-VOA美国之音,https://cntv.sbs/sbt?id=litv-ftv03
-半岛新闻,https://cntv.sbs/sbt?id=litv-ftv10
-视纳华仁纪实频道,https://cntv.sbs/sbt?id=4gtv-4gtv013
-大爱一台,https://cntv.sbs/sbt?id=4gtv-live007
-MTVLIVE,https://cntv.sbs/sbt?id=4gtv-live025
-幸福空间居家台,https://cntv.sbs/sbt?id=4gtv-live206
-LOVENATURE,https://cntv.sbs/sbt?id=4gtv-live208
-HISTORY历史频道,https://cntv.sbs/sbt?id=4gtv-live026
-CI罪案侦查频道,https://cntv.sbs/sbt?id=4gtv-live027
-CNBCASIA财经台,https://cntv.sbs/sbt?id=4gtv-live130
 
 🇨🇳码上测试频道,#genre#
 韩·BBS佛教,http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1403706733.m3u8
