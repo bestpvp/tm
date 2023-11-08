@@ -1,5 +1,5 @@
 时光机直播,#genre#
-20231106,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
+20231108,https://vdse.bdstatic.com//c2289af7749daef7a72ea754f33a3a06.mp4
 
 🇨🇳码上央视,#genre#
 CCTV-1综合,https://cntv.lat/tv?auth=202311030915&id=cctv1
@@ -373,6 +373,12 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8
 
 🇨🇳码上广东频道,#genre#
 嘉佳卡通,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001227/index.m3u8
+
+🇨🇳码上求索系列,#genre#
+求索动物,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
+求索记录,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3
+求索科学,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032344/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032344&livemode=1&stbId=3
+求索生活,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000003382/index.m3u8?channel-id=wasusyt&Contentid=6000000002000003382&livemode=1&stbId=3
 
 🇨🇳码上NEWTV系列,#genre#
 超级综艺,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226009/1.m3u8
