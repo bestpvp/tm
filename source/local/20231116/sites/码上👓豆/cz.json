@@ -1,0 +1,134 @@
+{
+	"作者": "空白",
+	"站名": "厂长",
+	"主页url": "https://czz9.com/",
+	"数组": " <li>&&display: none",
+	"直接播放": "0",
+	"图片": "data-original=\"&&\"",
+	"标题": "title=\"&&\"",
+	"链接": "href=\"&&\"",
+	"链接前缀": "",
+    "链接后缀": "",
+	"副标题": "1080P",
+	"搜索url": "",
+	"搜索数组": "",
+	"搜索图片": "",
+	"搜索标题": "",
+	"搜索链接": "",
+	"搜索副标题": "",
+	"影片类型": "类型：&&</li>",
+	"影片年代": "年份：&&</a>",
+	"影片地区": "地区：&&</a>",
+	"影片状态": "状态：&&</li>",
+	"导演": "导演：&&</li>",
+	"主演": "主演：&&</li>",
+	"简介": "video-info-content vod_content&&</span>",
+	"嗅探词": ".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive",
+	"线路数组": "mi_paly_box&&</a>",
+	"线路标题": "\">&&<span>",
+	"播放数组": "ypxingq_t&&mi_cont cai_con",
+	"播放列表": "",
+	"播放标题": "\">&&</a>",
+	"播放链接": "href=\"&&\"",
+	"分类url": "https://czz9.com/{cateId}/page/{catePg}",
+	"分类": "最近更新$movie_bt#热门推荐$reyingzhong#电影$movie_bt/movie_bt_series/dyy#电视剧$dsj#国产剧$gcj#韩剧$hanjutv#美剧$meijutt#追番计划$movie_bt_view_cat/fjj#动漫$dm#剧场版$dongmanjuchangban#近期高清$movie_bt_series/dyy#豆瓣高分$gaofenyingshi#豆瓣排名$dbtop250#PV预告$movie_bt_view_cat/pvyugao",
+	"筛选": {
+		"movie_bt": [
+			{
+				"key": "cateId",
+				"name": "影片类型",
+				"value": [
+					{
+						"n": "全部",
+						"v": "movie_bt"
+					},
+					{
+						"n": "冒险",
+						"v": "movie_bt/movie_bt_tags/maoxian"
+					},
+					{
+						"n": "剧情",
+						"v": "movie_bt/movie_bt_tags/juqing/"
+					},
+					{
+						"n": "动作",
+						"v": "movie_bt/movie_bt_tags/dozuo"
+					},
+					{
+						"n": "动漫",
+						"v": "movie_bt/movie_bt_tags/doman"
+					},
+					{
+						"n": "动画",
+						"v": "movie_bt/movie_bt_tags/dhh/"
+					},
+					{
+						"n": "历史",
+						"v": "movie_bt/movie_bt_tags/lishi"
+					},
+					{
+						"n": "古装",
+						"v": "movie_bt/movie_bt_tags/guzhuang"
+					},
+					{
+						"n": "喜剧",
+						"v": "movie_bt/movie_bt_tags/xiju"
+					},
+					{
+						"n": "奇幻",
+						"v": "movie_bt/movie_bt_tags/qihuan"
+					},
+					{
+						"n": "家庭",
+						"v": "movie_bt/movie_bt_tags/jiating"
+					},
+					{
+						"n": "恐怖",
+						"v": "movie_bt/movie_bt_tags/kubu/"
+					},
+					{
+						"n": "悬疑",
+						"v": "movie_bt/movie_bt_tags/xuanyi"
+					},
+					{
+						"n": "惊悚",
+						"v": "movie_bt/movie_bt_tags/kingsong"
+					},
+					{
+						"n": "战争",
+						"v": "movie_bt/movie_bt_tags/zhanzheng/"
+					},
+					{
+						"n": "武侠",
+						"v": "movie_bt/movie_bt_tags/wuxia"
+					},
+					{
+						"n": "灾难",
+						"v": "movie_bt/movie_bt_tags/zainan"
+					},
+					{
+						"n": "爱情",
+						"v": "movie_bt/movie_bt_tags/aiqing/"
+					},
+					{
+						"n": "犯罪",
+						"v": "movie_bt/movie_bt_tags/fanzui/"
+					},
+					{
+						"n": "科幻",
+						"v": "movie_bt/movie_bt_tags/kh"
+					},
+					{
+						"n": "纪录片",
+						"v": "movie_bt/movie_bt_tags/jlpp/"
+					},
+					{
+						"n": "音乐",
+						"v": "movie_bt/movie_bt_tags/yy/"
+					}
+
+				]
+			}
+		]
+	}
+}
