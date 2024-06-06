@@ -5,12 +5,24 @@
         "group": 1
     },
     {
-        "name": "饭太硬",
-        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
+        "name": "饭太硬主力",
+        "url": "https://www.huichunniao.cn/xh/lib/live.txt&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
+    },
+    {
+        "name": "饭太硬备份",
+        "url": "https://xhdwc.tk/xiutan.m3u&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
     },
     {
         "name": "肥猫",
         "url": "http://我不是.肥猫.live/TV/tvzb.txt&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
+    },
+    {
+        "name": "王小二主力",
+        "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/live1.txt&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
+    },
+    {
+        "name": "王小二备份",
+        "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:25:01/1714037101343/5511539/wexlive.txt&&&https://img2.imgtp.com/2024/03/10/yL3SWeeO.png"
     }
    
 ]
