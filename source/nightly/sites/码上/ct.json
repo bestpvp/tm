@@ -1,0 +1,19 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "主页url": "https://citytv.cc",
+    "数组": "stui-vodlist__thumb lazyload\"&&</a",
+    "图片": "data-original=\"&&\"",
+    "标题": "title=\"&&\"",
+    "链接": "href=\"&&\"",
+    "副标题": "pic-text text-right\"><b>&&</b",
+    "线路数组": "<a href=\"#playlist&&</a[排序:神马云播>奇异云播>百度云播>阿里云播]",
+    "线路标题": ">&&</a",
+    "播放数组": "stui-content__playlist clearfix&&</ul>",
+    "播放列表":"<li&&</li>[不包含:1080P]",
+    "播放标题":">&&</a>",
+    "播放链接":"href=\"&&\"",
+    "跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
+    "简介": "简介：</span>&&<br",
+    "分类url": "https://citytv.cc/tvs/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}/;;rc",
+    "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
+}
