@@ -1,0 +1,9 @@
+{
+    "分类": "电影$1#剧集$2#动漫$4",
+    "搜索url": "https://www.libhd.com/vodsearch/{wd}----------{pg}---.html",
+    "分类url": "https://www.libhd.com/vodshow/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html;;ak",
+    "图片": "data-src=\"&&\"",
+    "简介": "text cor3&&</div>",
+    "线路数组": "\"swiper-slide&&</a >[不包含:夸克]",
+    "线路标题": "</i>&&"
+}
