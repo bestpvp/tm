@@ -1,0 +1,11 @@
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js, ./sites/肥猫/酷奇MV.js
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json, ./sites/肥猫/MTV.json
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js, ./sites/肥猫/huya2.js
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js, ./sites/肥猫/斗鱼直播.js
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js, ./sites/肥猫/短视频.js
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json, ./sites/肥猫/bilibili.json
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js, ./sites/肥猫/%E5%85%94%E5%B0%8F%E8%B4%9D.js
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json, ./sites/肥猫/少儿教育.json
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json, ./sites/肥猫/小学课堂.json
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json, ./sites/肥猫/初中课堂.json
+连接超时: https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json, ./sites/肥猫/高中课堂.json

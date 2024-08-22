@@ -1,0 +1,23 @@
+[
+    {
+        "name": "范明明ipv6",
+        "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u&&&https://lintech.work/static/img/tm.png",
+        "group": 1
+    },
+    {
+        "name": "大葱Gather",
+        "url": "https://tv.iill.top/m3u/Gather&&&https://lintech.work/static/img/tm.png"
+    },
+    {
+        "name": "大葱Live",
+        "url": "https://tv.iill.top/m3u/Live&&&https://lintech.work/static/img/tm.png"
+    },
+    {
+        "name": "大葱Sport",
+        "url": "https://tv.iill.top/m3u/Sport&&&https://lintech.work/static/img/tm.png"
+    },
+    {
+        "name": "饭太硬",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt&&&https://lintech.work/static/img/tm.png"
+    }   
+]
