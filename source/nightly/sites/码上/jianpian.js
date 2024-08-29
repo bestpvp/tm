@@ -52,7 +52,7 @@ var rule = {
     }],
     lazy: '',
     // double:true,
-    图片来源: '@Referer=www.jianpianapp.com@User-Agent=jianpian-version353',
+    图片来源: '@dnt=1@Referer=http://img.shifen.me@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
     // 推荐:'json:data;room;*;cover;*;*',
     推荐: 'json:.video;*;*;*;*',
     一级: 'json:data;title;path;playlist.title;id',
